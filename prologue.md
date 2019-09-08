@@ -37,7 +37,7 @@ $user->name = 'Nuno'; // psalm error: property `name` can be modified
 Of course, you can still **Plus** without any static analysis tool and enjoy all the syntactic
 sugar such as `short closures` and others.
 
-> Learn more about `[Phpstan](https://github.com/phpstan/phpstan)` and `[Psalm](https://github.com/vimeo/psalm)`.
+> Learn more about [Phpstan](https://github.com/phpstan/phpstan) and [Psalm](https://github.com/vimeo/psalm).
 
 ### Drawbacks
 
