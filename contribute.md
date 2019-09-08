@@ -1,3 +1,5 @@
+> This document is a work in progress, it may still change, perhaps profoundly.
+
 # Contributing
 
 **Plus** is 100% open source and developed collaboratively by people from all over the world. Even

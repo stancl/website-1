@@ -3,7 +3,7 @@ home: true
 description: A superset of PHP that makes PHP cool again
 heroImage: /logo.png
 actionText: Documentation →
-actionLink: /documentation
+actionLink: /prologue
 sidebar: true
 features:
     - title: State of the art

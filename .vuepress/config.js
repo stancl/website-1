@@ -5,10 +5,8 @@ module.exports = {
   themeConfig: {
     repo: 'php-plus',
     sidebar: [
-      {
-        title: 'Documention',
-        collapsable: false
-      },
+      '/prologue',
+      '/handbook',
       '/contribute',
       '/funding'
     ]
