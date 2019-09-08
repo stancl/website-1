@@ -58,7 +58,7 @@ class User
 Keep in mind that the `return` keyword is hidden in those one-line arrow functions. So on the
 example above, we are going to return the name of the user.
 
-## `types` in class properties
+## Typed properties
 
 > Supported by: phpstan and psalm
 
@@ -71,7 +71,7 @@ class User {
 }
 ```
 
-## `readonly` in class properties
+## Readonly properties
 
 > Supported by: psalm
 
