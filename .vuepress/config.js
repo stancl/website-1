@@ -3,9 +3,11 @@ module.exports = {
   description: 'Plus is a superset of PHP that makes PHP cool again',
   sidebar: true,
   themeConfig: {
+    displayAllHeaders: true,
     repo: 'php-plus',
     sidebar: [
       '/prologue',
+      '/get-started',
       '/handbook',
       '/contribute',
       '/funding'
