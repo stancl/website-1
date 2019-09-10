@@ -1,6 +1,6 @@
-> This document is a work in progress, it may still change, perhaps profoundly.
-
 # Contributing
+
+> This document is a work in progress, it may still change, perhaps profoundly.
 
 **Plus** is 100% open source and developed collaboratively by people from all over the world. Even
 if you're not a programmer, you can get involved and make a difference.

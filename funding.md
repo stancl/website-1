@@ -1,6 +1,6 @@
-> This document is a work in progress, it may still change, perhaps profoundly.
-
 # Funding
+
+> This document is a work in progress, it may still change, perhaps profoundly.
 
 Salut! My name is **Nuno Maduro**, and I am a member of the PHP community for a long time now. Last
 year, I made a about **3,300 open source contributions**. And I have spoken at conferences such as

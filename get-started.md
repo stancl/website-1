@@ -1,6 +1,6 @@
-> This document is a work in progress, it may still change, perhaps profoundly.
-
 # Get Started
+
+> This document is a work in progress, it may still change, perhaps profoundly.
 
 You may install install by issuing the [Composer](https://getcomposer.org) `require` command in your terminal:
 

@@ -1,6 +1,6 @@
-> This document is a work in progress, it may still change, perhaps profoundly.
-
 # Handbook
+
+> This document is a work in progress, it may still change, perhaps profoundly.
 
 Let’s take a look at a simple class-based example:
 
@@ -76,7 +76,7 @@ initialized at their declaration or in the constructor.
 
 ```php
 class User {
-    public readonly string $name
+    public readonly string $name;
 }
 ```
 
@@ -118,7 +118,5 @@ notation is useful when passing closures to functions like array_map or array_fi
 an example:
 
 ```php
-$users = [/** */];
-
-$names = array_map(($users) => $user->id, $users);
+$names = array_map(($users) => $user->name, $users);
 ```

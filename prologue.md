@@ -1,6 +1,6 @@
-> This document is a work in progress, it may still change, perhaps profoundly.
-
 # Prologue
+
+> This document is a work in progress, it may still change, perhaps profoundly.
 
 **Plus is a runtime compiler that adds features to PHP** - It's also a package that you can
 require using `composer`, and is mainly used to add features and syntactic sugar to existant PHP

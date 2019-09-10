@@ -13,4 +13,10 @@ module.exports = {
       '/funding'
     ]
   },
+  plugins: [
+    '@vuepress/google-analytics',
+    {
+      'ga': 'G-5KRDNW05T'
+    }
+  ]
 }
