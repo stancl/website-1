@@ -5,14 +5,14 @@
 Let’s take a look at a simple class-based example:
 
 ```php
-class User {
+internal class User {
     public readonly string $name;
 
     public __construct(string $name) {
         $this->name = $name;
     }
 
-    public getName(): string => $this->name
+    public getName(): string => $this->name;
 }
 ```
 
@@ -60,20 +60,16 @@ example above, we are going to return the name of the user.
 
 ## Typed properties
 
-> Supported by: phpstan and psalm
-
 With **Plus** you don't need PHP 7.4 to start types in class properties. In our example, if the
 property name is a `string`, you can do:
 
 ```php
 class User {
-    public string $name
+    public string $name;
 }
 ```
 
 ## Readonly properties
-
-> Supported by: psalm
 
 You can make properties readonly by using the `readonly` keyword. Readonly properties must be
 initialized at their declaration or in the constructor.
@@ -82,6 +78,16 @@ initialized at their declaration or in the constructor.
 class User {
     public readonly string $name
 }
+```
+
+##  Internal visibility modifier
+
+If you are open source maintainer, refactoring after a stable release of your open source library
+can be hard, because technically in PHP: **every class is public**. With **Plus**, the `internal`
+keyword can be used to denote that the associated class is internal to the library:
+
+```php
+internal class User {
 ```
 
 ## Enumerations
@@ -108,9 +114,12 @@ $user->answer(Response::Yes);
 
 ## Short closures
 
-## Types
+Short closures, also called arrow functions, are a way of writing shorter functions in **Plus**. This
+notation is useful when passing closures to functions like array_map or array_filter. Here is
+an example:
 
-## Debuggable
+```php
+$users = [/** */];
 
-
-
+$names = array_map(($users) => $user->id, $users);
+```
