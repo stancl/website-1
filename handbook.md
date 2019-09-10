@@ -93,10 +93,9 @@ internal class User {
 ## Enumerations
 
 Enums allow us to define a set of named constants. Using enums can make it easier to document
-intent, or create a set of distinct cases. Plus provides both numeric and string-based enums.
+intent, or create a set of distinct cases. **Plus** provides both numeric and string-based enums.
 
-We’ll first start off with numeric enums, which are probably more familiar if you’re coming from
-other languages. An enum can be defined using the `enum` keyword.
+An enum can be defined using the `enum` keyword:
 
 ```php
 enum Direction {
