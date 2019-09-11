@@ -2,7 +2,7 @@
 
 > This document is a work in progress, it may still change, perhaps profoundly.
 
-You may install install by issuing the [Composer](https://getcomposer.org) `require` command in your terminal:
+You may install **Plus** by issuing the [Composer](https://getcomposer.org) `require` command in your terminal:
 
 ```bash
 composer require php-plus/engine
