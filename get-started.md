@@ -16,5 +16,5 @@ syntax that **Plus** has to offer. Here is an example:
 
 declare(plus=1);
 
-Route::get('/', () => view('welcome');
+Route::get('/', () => view('welcome'));
 ```
