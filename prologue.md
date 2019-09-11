@@ -37,7 +37,7 @@ class User {
 }
 
 $user = new User();
-$user->name = 'Nuno'; // psalm error: property `name` can be modified
+$user->name = 'Nuno'; // psalm error: property `name` can not be modified
 ```
 
 Of course, you can still **Plus** without any static analysis tool and enjoy all the syntactic
