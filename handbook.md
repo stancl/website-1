@@ -16,7 +16,7 @@ internal class User {
 }
 ```
 
-Cool right? The syntax should look familiar if you have used PHP before - so now, let's walk thought on
+Cool right? The syntax should look familiar if you have used PHP before - so now, let's walk through
 what **Plus** has to offer:
 
 ## Methods signature
@@ -55,7 +55,7 @@ class User
 }
 ```
 
-Keep in mind that the `return` keyword is hidden in those one-line arrow functions. So on the
+Keep in mind that the `return` keyword is hidden in those one-line arrow functions. So in the
 example above, we are going to return the name of the user.
 
 ## Typed properties
