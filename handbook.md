@@ -16,8 +16,8 @@ internal class User {
 }
 ```
 
-Cool right? The syntax should look familiar if you have used PHP before - so now, let's walk thought on
-what **Plus** was to offer:
+Cool right? The syntax should look familiar if you have used PHP before - so now, let's walk through
+what **Plus** has to offer:
 
 ## Methods signature
 
@@ -55,12 +55,12 @@ class User
 }
 ```
 
-Keep in mind that the `return` keyword is hidden in those one-line arrow functions. So on the
+Keep in mind that the `return` keyword is hidden in those one-line arrow functions. So in the
 example above, we are going to return the name of the user.
 
 ## Typed properties
 
-With **Plus** you don't need PHP 7.4 to start types in class properties. In our example, if the
+With **Plus** you don't need PHP 7.4 to start using types in class properties. In our example, if the
 property name is a `string`, you can do:
 
 ```php
@@ -83,7 +83,7 @@ class User {
 ##  Internal visibility modifier
 
 If you are open source maintainer, refactoring after a stable release of your open source library
-can be hard, because technically in PHP: **every class is public**. With **Plus**, the `internal`
+can be hard, because technically in PHP **every class is public**. With **Plus**, the `internal`
 keyword can be used to denote that the associated class is internal to the library:
 
 ```php
@@ -123,7 +123,7 @@ $names = array_map(($users) => $user->name, $users);
 
 ## Type Hint Variables
 
-In same cases, type inference in PHP may not work as expected. With **Plus**, you can instruct
+In some cases, type inference in PHP may not work as expected. With **Plus**, you can instruct
 the variable's type to the various static analysis tools. You can specify a variable's type by
 doing `$variable: Type = $value`. Here are some examples:
 

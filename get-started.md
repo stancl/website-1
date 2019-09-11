@@ -8,7 +8,7 @@ You may install **Plus** by issuing the [Composer](https://getcomposer.org) `req
 composer require php-plus/engine
 ```
 
-After installing **Plus**, you need to a `declare(plus=1);` to each file you want use the new
+After installing **Plus**, you need to add `declare(plus=1);` to each file you want use the new
 syntax that **Plus** has to offer. Here is an example:
 
 ```php
