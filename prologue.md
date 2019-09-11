@@ -8,12 +8,18 @@ code. Of course, those features arrive in PHP using runtime source code transfor
 
 Here is an example:
 ```php
-$names = array_map(($user) => $user->name, $users);
+class User {
+    // A readonly property cannot be assigned after the constructor exits
+    public readonly string $name;
 
-// The short closure above is transformed in runtime to:
-$names = array_map(function ($user) {
-    return $user->name;
-}, $users);
+    // No need for the `t_function` keyword
+    public __construct(string $name) {
+        $this->name = $name;
+    }
+
+    // One expression functions with return statement
+    public getUppercasedName(): string => strtoupper($this->name)
+}
 ```
 
 ### Static analysis
