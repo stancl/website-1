@@ -120,3 +120,16 @@ an example:
 ```php
 $names = array_map(($users) => $user->name, $users);
 ```
+
+## Type Hint Variables
+
+In same cases, type inference in PHP may not work as expected. With **Plus**, you can instruct
+the variable's type to the various static analysis tools. You can specify a variable's type by
+doing `$variable: Type = $value`. Here are some examples:
+
+```php
+$user: User = $collection->first();
+$age: int = $array[1]['age'];
+```
+
+
