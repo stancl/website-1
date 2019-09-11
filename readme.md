@@ -37,5 +37,5 @@ composer require php-plus/engine
 
 declare(plus=1);
 
-Route::get('/', () => view('welcome');
+Route::get('/', () => view('welcome'));
 ```
