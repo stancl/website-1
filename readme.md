@@ -24,7 +24,7 @@ footer: MIT Licensed | Copyright © Nuno Maduro
 
 ### Try **Plus** in 10 seconds
 
-*Note: **Plus** is still work in progress.*
+_Note: **Plus** is still work in progress._
 
 - First, install Plus:
 
