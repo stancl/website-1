@@ -5,12 +5,12 @@
 **Plus** is 100% open source and developed collaboratively by people from all over the world. Even
 if you're not a programmer, you can get involved and make a difference.
 
-**Plus** is managed on [GitHub](https://github.com/plus-php), and there are repositories for
+**Plus** is managed on [GitHub](https://github.com/php-plus), and there are repositories for
 each of the **Plus** projects:
 
-- [Plus Engine](https://github.com/plus-php/engine)
-- [Plus Art](https://github.com/plus-php/art)
-- [Plus Website](https://github.com/plus-php/website)
+- [Plus Engine](https://github.com/php-plus/engine)
+- [Plus Art](https://github.com/php-plus/art)
+- [Plus Website](https://github.com/php-plus/website)
 
 ## You are a developer?
 
@@ -33,6 +33,6 @@ we use the following convention: `type(branch-name): description`. Here are some
 
 ## License
 
-Of course, **Plus** is open-source software licensed under the [MIT license](https://github.com/plus-php/plus-php/blob/stable/LICENSE.md).
+Of course, **Plus** is open-source software licensed under the [MIT license](https://github.com/php-plus/php-plus/blob/stable/LICENSE.md).
 
 
